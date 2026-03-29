@@ -1,16 +1,30 @@
 # AI Cloud Resource Orchestrator
 
-## Problem
+## 📌 Problem Statement
 Efficiently allocate cloud resources dynamically to handle workloads while minimizing cost.
 
-## Features
-- OpenEnv compliant environment
-- Real-world simulation (cloud infra)
-- 3 difficulty tasks
-- Reward function with partial scoring
-- Baseline agent
+---
 
-## Setup
+## 🚀 Features
+- OpenEnv compliant environment
+- Real-world cloud simulation
+- 3 difficulty levels (Easy, Medium, Hard)
+- Reward-based evaluation system
+- Baseline agent implementation
+- Web UI using Gradio (for Hugging Face)
+
+---
+
+## 🧠 How It Works
+- The environment simulates cloud VM allocation
+- The agent creates/scales/deletes VMs
+- Tasks are processed based on resource capacity
+- Final score is calculated using efficiency and cost
+
+---
+
+## 🖥️ Running Locally
+
 ```bash
-pip pip install --no-cache-dir -r requirements.txt
-python baseline.py
+pip install -r requirements.txt
+python app.py
