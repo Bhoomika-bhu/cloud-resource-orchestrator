@@ -1,11 +1,18 @@
-# AI Cloud Resource Orchestrator
+---
+title: Cloud Resource Orchestrator
+sdk: docker
+app_file: app.py
+pinned: false
+---
 
-## 📌 Problem Statement
+ AI Cloud Resource Orchestrator
+
+Problem Statement
 Efficiently allocate cloud resources dynamically to handle workloads while minimizing cost.
 
 ---
 
-## 🚀 Features
+Features
 - OpenEnv compliant environment
 - Real-world cloud simulation
 - 3 difficulty levels (Easy, Medium, Hard)
@@ -15,7 +22,7 @@ Efficiently allocate cloud resources dynamically to handle workloads while minim
 
 ---
 
-## 🧠 How It Works
+ How It Works
 - The environment simulates cloud VM allocation
 - The agent creates/scales/deletes VMs
 - Tasks are processed based on resource capacity
@@ -23,8 +30,8 @@ Efficiently allocate cloud resources dynamically to handle workloads while minim
 
 ---
 
-## 🖥️ Running Locally
+Running Locally
 
-```bash
+bash
 pip install -r requirements.txt
 python app.py
