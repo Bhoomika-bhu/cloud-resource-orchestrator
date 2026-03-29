@@ -12,5 +12,5 @@ Efficiently allocate cloud resources dynamically to handle workloads while minim
 
 ## Setup
 ```bash
-pip install -r requirements.txt
+pip pip install --no-cache-dir -r requirements.txt
 python baseline.py
