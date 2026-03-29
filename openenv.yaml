@@ -1,0 +1,21 @@
+name: Cloud Resource Orchestrator
+description: Simulates intelligent cloud resource allocation
+version: 1.0
+
+observation_space:
+  vms: list
+  pending_tasks: int
+  cost: float
+
+action_space:
+  action_type: string
+  vm_id: string
+  cpu: int
+  memory: int
+
+reward: float
+
+tasks:
+  - easy
+  - medium
+  - hard
