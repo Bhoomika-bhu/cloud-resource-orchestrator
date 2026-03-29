@@ -19,5 +19,5 @@ def run_simulation():
     score = grade(env)
     return f"Final Score: {score}"
 
-iface = gr.Interface(fn=run_simulation, inputs=[], outputs="text")
+iface = gr.Interface(fn=run_simulation, inputs=None, outputs="text")
 iface.launch(server_name="0.0.0.0", server_port=7860)
